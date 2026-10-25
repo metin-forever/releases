@@ -41,3 +41,9 @@ The apps are not signed with an Apple developer certificate, so macOS blocks the
       xattr -dr com.apple.quarantine /Applications/Forever
 
 Settings and logs are kept in `~/Library/Application Support/Forever/`, screenshots in `~/Pictures/Forever/`. Replacing the apps with a newer build leaves both in place.
+
+## Reporting a problem
+
+The client writes the log of the current session to `log.txt` and, at each start, keeps the log of the previous session as `log.prev.txt`, so restarting after a crash does not lose it. On Windows both files are in the client folder, beside `metin2client.exe`; on macOS they are in `~/Library/Application Support/Forever/`.
+
+A report should attach both files and state the build version (see [Version](#version) for where to read it).
