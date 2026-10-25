@@ -9,7 +9,7 @@ Client builds for the test server, published by CI from the client repository. E
 
 ## Version
 
-Each build carries a version of the form `forever-YYYY.MM.DD.N`: the UTC date of its commit and the commit's position among that day's commits. The Windows and macOS builds of one commit have the same version. It appears in the release title (`Windows client forever-2026.10.25.3`) and notes, which also name the commit, and in the apps: on Windows under Properties → Details of `metin2client.exe`, on macOS under Get Info of `Forever.app`.
+Each build carries a version of the form `forever-YYYY.MM.DD.N`: the UTC date of its commit and the commit's position among that day's commits. The Windows and macOS builds of one commit have the same version. It is the title of every release (`forever-2026.10.25.3`) and appears in the notes, which also name the commit, and in the apps: on Windows under Properties → Details of `metin2client.exe`, on macOS under Get Info of `Forever.app`.
 
 ## Checking the download
 
