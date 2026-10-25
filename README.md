@@ -1,15 +1,15 @@
 # Client builds
 
-Client builds for the test server, published by CI from the client repository. Each platform has a stable release that holds its newest build; the links below always serve it, and a build of one platform does not wait for the other. Each commit also has a release of its own, `client-<commit>`, holding the builds of that commit; only the newest few are kept.
+Client builds for the test server, published by CI from the client repository. Each version has one release, `forever-<version>`, holding the Windows and macOS builds of that client commit. The links below follow each platform's newest build; the release job updates them after each upload, so a build of one platform does not wait for the other. The release marked latest is the newest version holding both platforms. Only the newest few versions are kept.
 
 | Platform | Download | Checksum |
 |---|---|---|
-| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/download/client-windows-latest/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/client-windows-latest/metin-forever-client-windows.zip.sha256) |
-| macOS | [metin-forever-client-macos.zip](https://github.com/metin-forever/releases/releases/download/client-macos-latest/metin-forever-client-macos.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/client-macos-latest/metin-forever-client-macos.zip.sha256) |
+| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-windows.zip.sha256) |
+| macOS | [metin-forever-client-macos.zip](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-macos.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-macos.zip.sha256) |
 
 ## Version
 
-Each build carries a version of the form `forever-YYYY.MM.DD.N`: the UTC date of its commit and the commit's position among that day's commits. The Windows and macOS builds of one commit have the same version. It is the title of every release (`forever-2026.10.25.3`) and appears in the notes, which also name the commit, and in the apps: on Windows under Properties → Details of `metin2client.exe`, on macOS under Get Info of `Forever.app`.
+Each build carries a version of the form `forever-YYYY.MM.DD.N`: the UTC date of its commit and the commit's position among that day's commits. The Windows and macOS builds of one commit have the same version. It is the tag and title of each release (`forever-2026.10.25.13`) and appears in the notes, which also name the commit, and in the apps: on Windows under Properties → Details of `metin2client.exe`, on macOS under Get Info of `Forever.app`.
 
 ## Checking the download
 
