@@ -1,11 +1,15 @@
 # Client builds
 
-Client builds for the test server, published by CI from the client repository. Each release holds the builds of one commit for both platforms; the links below always serve the newest release that holds both.
+Client builds for the test server, published by CI from the client repository. Each platform has a stable release that holds its newest build; the links below always serve it, and a build of one platform does not wait for the other. Each commit also has a release of its own, `client-<commit>`, holding the builds of that commit; only the newest few are kept.
 
 | Platform | Download | Checksum |
 |---|---|---|
-| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/latest/download/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/latest/download/metin-forever-client-windows.zip.sha256) |
-| macOS | [metin-forever-client-macos.zip](https://github.com/metin-forever/releases/releases/latest/download/metin-forever-client-macos.zip) | [.sha256](https://github.com/metin-forever/releases/releases/latest/download/metin-forever-client-macos.zip.sha256) |
+| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/download/client-windows-latest/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/client-windows-latest/metin-forever-client-windows.zip.sha256) |
+| macOS | [metin-forever-client-macos.zip](https://github.com/metin-forever/releases/releases/download/client-macos-latest/metin-forever-client-macos.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/client-macos-latest/metin-forever-client-macos.zip.sha256) |
+
+## Version
+
+Each build carries a version of the form `forever-YYYY.MM.DD.N`: the UTC date of its commit and the commit's position among that day's commits. The Windows and macOS builds of one commit have the same version. It appears in the release title (`Windows client forever-2026.10.25.3`) and notes, which also name the commit, and in the apps: on Windows under Properties → Details of `metin2client.exe`, on macOS under Get Info of `Forever.app`.
 
 ## Checking the download
 
