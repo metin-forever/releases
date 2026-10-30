@@ -4,7 +4,7 @@ Client builds for the test server, published by CI from the client repository. E
 
 | Platform | Download | Checksum |
 |---|---|---|
-| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-windows.zip.sha256) |
+| Windows | [metin-forever-client-windows.zip](https://github.com/metin-forever/releases/releases/download/forever-2026.10.30.1/metin-forever-client-windows.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/forever-2026.10.30.1/metin-forever-client-windows.zip.sha256) |
 | macOS | [metin-forever-client-macos.zip](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-macos.zip) | [.sha256](https://github.com/metin-forever/releases/releases/download/forever-2026.10.25.13/metin-forever-client-macos.zip.sha256) |
 
 ## Version
